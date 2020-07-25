@@ -460,7 +460,7 @@ caddy_install(){
 
 	Default_caddy
 	#caddy官方脚本
-	curl https://getcaddy.com | bash -s personal
+	curl https://github.com/cclives789/caddy | bash -s personal
 
 	#添加自启动 加载配置文件
 	touch /etc/systemd/system/caddy.service
